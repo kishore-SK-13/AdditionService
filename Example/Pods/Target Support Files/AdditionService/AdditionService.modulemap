@@ -1,0 +1,6 @@
+framework module AdditionService {
+  umbrella header "AdditionService-umbrella.h"
+
+  export *
+  module * { export * }
+}

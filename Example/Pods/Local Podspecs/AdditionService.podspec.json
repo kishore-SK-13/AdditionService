@@ -1,0 +1,22 @@
+{
+  "name": "AdditionService",
+  "version": "0.1.0",
+  "summary": "A short description of AdditionService.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kishore-SK-13/AdditionService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kishore-SK-13": "starkishore2@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/kishore-SK-13/AdditionService.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AdditionService/Classes/**/*"
+}

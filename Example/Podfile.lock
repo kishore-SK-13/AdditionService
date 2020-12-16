@@ -1,0 +1,16 @@
+PODS:
+  - AdditionService (0.1.0)
+
+DEPENDENCIES:
+  - AdditionService (from `../`)
+
+EXTERNAL SOURCES:
+  AdditionService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AdditionService: 2f66231c011cd75bdd52b1638467db1f1f9055d4
+
+PODFILE CHECKSUM: 1a01cb22592f7ccb8b4406896d2f541b449629de
+
+COCOAPODS: 1.8.4
