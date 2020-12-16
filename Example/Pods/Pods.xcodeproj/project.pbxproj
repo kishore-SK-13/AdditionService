@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B2929F58FB1A0E76E6838560D4554B5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D295B4E31CD33B42CC63981735F6EBAB /* ReplaceMe.swift */; };
+		4B2929F58FB1A0E76E6838560D4554B5 /* additionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D295B4E31CD33B42CC63981735F6EBAB /* additionService.swift */; };
 		6856C9ECE900A297E204E7BC8B63F462 /* AdditionService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D084342E72FE7C1C19FB88175B013809 /* AdditionService-dummy.m */; };
 		6EDF6CC359A892BC1D1A2E4B0D498889 /* Pods-AdditionService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9280496D32B900ABDBBF74AB12E9858C /* Pods-AdditionService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87A7F40EB9ECF81E1D823E78B1060EC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -28,24 +28,24 @@
 
 /* Begin PBXFileReference section */
 		11D87390E32A61BA12F157A26C6FBA43 /* Pods-AdditionService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdditionService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1BF8516B6E13C388273896C96CA8C521 /* AdditionService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AdditionService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1EEA0529B0E79C9DD8379BDB84084860 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1BF8516B6E13C388273896C96CA8C521 /* AdditionService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AdditionService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1EEA0529B0E79C9DD8379BDB84084860 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		312D10E57CC8BB748663690E80E5CA81 /* Pods-AdditionService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdditionService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		67A25F78D3D8C54727DAFF568F488B8F /* Pods-AdditionService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdditionService_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		688EA80685A9F8490C9BFD87EE6A7417 /* Pods-AdditionService_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdditionService_Tests-Info.plist"; sourceTree = "<group>"; };
 		6BB1A2F15884613B95253D3DE52B79DF /* AdditionService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdditionService.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		762EB28B577667F51A0D82AB585E4450 /* AdditionService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AdditionService.framework; path = AdditionService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F422F1A097404442899D2C84F0C033C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		762EB28B577667F51A0D82AB585E4450 /* AdditionService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdditionService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F422F1A097404442899D2C84F0C033C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9280496D32B900ABDBBF74AB12E9858C /* Pods-AdditionService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdditionService_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9B68FA54DA2F9EFBB8F4E3B9DA844E67 /* Pods-AdditionService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdditionService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BDE750194DE531A9078EDB543A592354 /* AdditionService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AdditionService-Info.plist"; sourceTree = "<group>"; };
 		C90882B6BB04C797DB78D7621AE53737 /* AdditionService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdditionService-prefix.pch"; sourceTree = "<group>"; };
 		CBAAED431FE6E08F3E124AA4091DF611 /* AdditionService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdditionService-umbrella.h"; sourceTree = "<group>"; };
 		D084342E72FE7C1C19FB88175B013809 /* AdditionService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AdditionService-dummy.m"; sourceTree = "<group>"; };
-		D295B4E31CD33B42CC63981735F6EBAB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AdditionService/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		D81BEE53EA152BBD9BD8289DC7FDB936 /* Pods_AdditionService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AdditionService_Tests.framework; path = "Pods-AdditionService_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D295B4E31CD33B42CC63981735F6EBAB /* additionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = additionService.swift; sourceTree = "<group>"; };
+		D81BEE53EA152BBD9BD8289DC7FDB936 /* Pods_AdditionService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdditionService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F177BE93A933138DF84A48D6AF840B6E /* AdditionService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AdditionService.modulemap; sourceTree = "<group>"; };
 		FBBCBF693B6A89981A4CD88F90AF48CD /* Pods-AdditionService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdditionService_Tests-dummy.m"; sourceTree = "<group>"; };
 		FCA31FB4DEA75526567736E172F5F82B /* Pods-AdditionService_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdditionService_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -105,6 +105,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		648812EF258A2CF800A6A06D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D295B4E31CD33B42CC63981735F6EBAB /* additionService.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		A5B7B1D756FC1922CD3FB59CB70FF658 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,7 +159,7 @@
 		E3ED0BF23455B9F490D9D6CFD0E47207 /* AdditionService */ = {
 			isa = PBXGroup;
 			children = (
-				D295B4E31CD33B42CC63981735F6EBAB /* ReplaceMe.swift */,
+				648812EF258A2CF800A6A06D /* Source */,
 				AA8909AB9382875F276693A42758A1BD /* Pod */,
 				A5B7B1D756FC1922CD3FB59CB70FF658 /* Support Files */,
 			);
@@ -242,7 +250,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1230;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -286,7 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6856C9ECE900A297E204E7BC8B63F462 /* AdditionService-dummy.m in Sources */,
-				4B2929F58FB1A0E76E6838560D4554B5 /* ReplaceMe.swift in Sources */,
+				4B2929F58FB1A0E76E6838560D4554B5 /* additionService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +333,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AdditionService/AdditionService-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AdditionService/AdditionService-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AdditionService/AdditionService.modulemap";
 				PRODUCT_MODULE_NAME = AdditionService;
@@ -356,7 +364,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AdditionService_Tests/Pods-AdditionService_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AdditionService_Tests/Pods-AdditionService_Tests.modulemap";
@@ -389,7 +397,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AdditionService_Tests/Pods-AdditionService_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AdditionService_Tests/Pods-AdditionService_Tests.modulemap";
@@ -455,13 +463,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -519,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -547,7 +554,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AdditionService/AdditionService-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AdditionService/AdditionService-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AdditionService/AdditionService.modulemap";
 				PRODUCT_MODULE_NAME = AdditionService;

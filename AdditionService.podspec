@@ -10,13 +10,14 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/kishore-SK-13/AdditionService'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'kishore-SK-13' => 'starkishore2@gmail.com' }
+  s.author           = { 'kishore-SK-13' => 'starkhishore2@gmail.com' }
   s.source           = { :git => 'https://github.com/kishore-SK-13/AdditionService.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.
+  s.platforms = ios, "14.0"
+  s.swift_version = '5.0'
   s.ios.deployment_target = '14.0'
+  s.source_files = 'Source/**/*.swift'
 
-  s.source_files = 'AdditionService/Classes/**/*'
   
   # s.resource_bundles = {
   #   'AdditionService' => ['AdditionService/Assets/*.png']
