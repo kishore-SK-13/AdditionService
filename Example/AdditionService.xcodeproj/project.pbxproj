@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		648812F6258A2EF500A6A06D /* AdditionService.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8C3ED41D9D6D884565336FDC /* AdditionService.podspec */; };
 		BBBB5824FADB2A981BA011B4 /* Pods_AdditionService_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81274607F4B289C39E1D1BC2 /* Pods_AdditionService_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -160,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				648812F6258A2EF500A6A06D /* AdditionService.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
